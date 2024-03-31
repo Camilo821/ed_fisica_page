@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
         <link rel="stylesheet" href="style.css">
         <title>Ed física</title>
     </head>
@@ -17,7 +18,7 @@
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
                         <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-                        <a class="nav-link" href="#">Consultas</a>
+                        <a class="nav-link" href="./consultas.html">Consultas</a>
                         <a class="nav-link" href="#">Retos</a>
                         <a class="nav-link" href="#">Entrenamiento</a>
                     </div>
@@ -80,16 +81,16 @@
                     <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
                         Presentación
                     </button>
-                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample2">
                         Actividad física
+                    </button>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample3">
+                        Carrera
                     </button>
                 </div>
                 <div class="btn-group" role="group" aria-label="Basic example">
                     <button class="btn btn-info" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
                         Citas
-                    </button>
-                    <button class="btn btn-info" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample2" aria-controls="offcanvasExample2">
-                        Deportes
                     </button>
                     <button class="btn btn-info" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample3" aria-controls="offcanvasExample3">
                         Hobbies
@@ -99,21 +100,143 @@
                     </button>
                 </div>
                 <div class="btn-group" role="group" aria-label="Basic example">
-                    
+                    <button type="button" class="btn btn-warning" id="liveToastBtn">
+                        Defecto
+                    </button>
+                    <button type="button" class="btn btn-warning" id="liveToastBtn2">
+                        Profesores
+                    </button>
+                    <button type="button" class="btn btn-warning" id="liveToastBtn3">
+                        Materia Favorita
+                    </button>
+                    <button type="button" class="btn btn-warning" id="liveToastBtn4">
+                        Frase
+                    </button>
                 </div>
             </div>
             <!-- Accordion -->
             <div class="collapse" id="collapseExample">
                 <div class="card card-body">
-                    Mi nombre es Juan Camilo Arboleda, del grupo 11°2. Tengo 16 años, mido 1.65m aproximadamente y peso 66 kg.
+                    Mi nombre es Juan Camilo Arboleda, del grupo 11°2. Tengo 16 años, cumplo años el 21 de agosto.
                 </div>
             </div>
             <div class="collapse" id="collapseExample2">
                 <div class="card card-body">
                     Practico Ultimate desde el año pasado y he asistido a diversos torneos y actividades relacionadas a el. Salgo a trotar frecuentemente a la carretera de San Pedro, en una de las siguientes páginas estarán algunos de los recorridos que he hecho. Considero que tengo un estado físico bastante bueno, tengo muy buena resistencia debido a las actividades antes mencionadas.
+                    <br>
+                    
                 </div>
             </div>
-            
+            <div class="collapse" id="collapseExample3">
+                <div class="card card-body">
+                    Economía, mi cosa favorita es el desarrollo de software pero puedo aprenderlo por mi cuenta como lo he hecho hasta ahora. Ambiciono emprender en el área de tech a futuro y economía ayuda bastante para eso.
+                </div>
+            </div>
+            <!-- Cards -->
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col">
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="https://hips.hearstapps.com/hmg-prod/images/gettyimages-1229892983-square.jpg" class="img-fluid rounded-start" alt="...">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Elon Musk</h5>
+                                        <p class="card-text">Lo admiro bastante por su genio y sus logros, es una de las persona con más dinero en todo el mundo. Cabe aclarar que como personas no es un buen ejemplo.</p>
+                                        <p class="card-text"><small class="text-body-secondary">Famoso</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="https://i.ibb.co/61nswTH/Beth-harmon-Anya-taylor-joy.jpg" class="img-fluid rounded-start" alt="...">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Anya Taylor-Joy</h5>
+                                        <p class="card-text">No hay mucho que decir, solo vea la foto. La vi por una serie de Netflix, Gambito de Dama.</p>
+                                        <p class="card-text"><small class="text-body-secondary">Amor Platónico</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="https://i.scdn.co/image/ab6761610000e5eb920dc1f617550de8388f368e" class="img-fluid rounded-start" alt="...">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Imagine Dragons</h5>
+                                        <p class="card-text">Es mi banda favorita, tienen letras con significados muy lindos y muy profundos. Mi canción favorita es It's time.</p>
+                                        <p class="card-text"><small class="text-body-secondary">Banda favorita</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="https://blogs.elespectador.com/wp-content/uploads/2021/10/ColorJulesVerne.jpeg" class="img-fluid rounded-start" alt="...">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Julio Verne</h5>
+                                        <p class="card-text">Este escritor fue mi infancia, es quizá el escritor que más he leído, sus libros me ayudaron a escapar de muchos momentos dfíciles.</p>
+                                        <p class="card-text"><small class="text-body-secondary">Escritor favorito</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="https://m.media-amazon.com/images/M/MV5BOTk2NzUyOTctZDdlMS00MDJlLTgzNTEtNzQzYjFhNjA0YjBjXkEyXkFqcGdeQXVyMjg1NDcxNDE@._V1_.jpg" class="img-fluid rounded-start" alt="...">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Dark</h5>
+                                        <p class="card-text">Esta es mi serie favorita por lo impredecible que es, son solo tres temporadas y en cada capítulo hay com 5 giros de trama.</p>
+                                        <p class="card-text"><small class="text-body-secondary">Serie Favorita</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="https://cineuropa.org/Galleries/280/433/poster01_en_big.jpg?1415976789133" class="img-fluid rounded-start" alt="...">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Interestellar</h5>
+                                        <p class="card-text">Es una de mis películas favoritas, siempre me ha gustado la física y esta película trata de viajes interplanetarios y tiene bastantes fundamentos físicos además de un significado muy lindo detrás.</p>
+                                        <p class="card-text"><small class="text-body-secondary">Película favorita</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
             <!-- OffCanvas -->
             <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
@@ -124,27 +247,18 @@
                 <div class="offcanvas-body">
                     <div>
                         <h1>Citas</h1>
-                        <p>"<em>Small things make baes men proud</em>" <strong>William Shakespeare</strong></p>
-                        <p>"<em>La verdadera locura quizá no sea otra cosa que la sabiduría misma que, cansada de descubrir las verguenzas del mundo, ha tomado la inteligente resolución de volverse loca.</em>" <strong>Enrique Heine</strong></p>
+                        <p>"<em>Small things make baes men proud</em>" <strong>William Shakespeare.</strong></p>
+                        <p>"<em>Lo que hoy es utopía será carne y sangre mañana</em>" <strong>Julio Verne.</strong></p>
+                        <p>"<em>Pero detrás de toda acción había una protesta, porque todo hacer significaba salir de para llegar a, o mover algo para que estuviera aquí y no allí, o entrar en una casa en vez de no entrar o entrar en la de al lado, es decir que en todo acto había la admisión de carencia, de algo no hecho todavía y que era posible hacer.</em>" <strong>Rayuela, Julio Cortázar.</strong></p>
+                        <p>"<em>La verdadera locura quizá no sea otra cosa que la sabiduría misma que, cansada de descubrir las verguenzas del mundo, ha tomado la inteligente resolución de volverse loca.</em>" <strong>Enrique Heine.</strong></p>
                         <p>"<em>Por eso, cuando se oye o se ve algo <br>
                             que capta el alma poderosamente, <br>
-                            el tiempo vuela, el hombre no lo nota.</em>" <br> <strong>Purgatorio, Dante Alliguieri</strong>
+                            el tiempo vuela, el hombre no lo nota.</em>" <br> <strong>Purgatorio, Dante Alliguieri.</strong>
                         </p>
                     </div>
                 </div>
             </div>
-            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample2" aria-labelledby="offcanvasExampleLabel">
-                <div class="offcanvas-header">
-                    <h5 class="offcanvas-title" id="offcanvasExampleLabel">Deportes</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body">
-                    <div>
-                        <h1>Deportes preferidos</h1>
-                        <p>Veo fútbol muy seguido, sobre todo fútbol europeo, mi equipo favoirito es el Arsenal de Londres. Aunque veo poco fútbol colombiano mi equipo favorito aquí es Atlético Nacional</p>
-                    </div>
-                </div>
-            </div>
+            <!-- OffCanvas -->
             <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample3" aria-labelledby="offcanvasExampleLabel">
                 <div class="offcanvas-header">
                     <h5 class="offcanvas-title" id="offcanvasExampleLabel">Hobbies</h5>
@@ -176,12 +290,57 @@
                     </div>
                 </div>
             </div>
+            
         </div>
         <footer>
             <div class="row footer">
                 <p class="footer" data-bs-toggle="popover" title="Copyright" data-bs-content="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">&copy; Juan Camilo Arboleda Ed Físca Page</p>
             </div>
         </footer>
+        <!-- Toast -->
+        <div class="toast-container position-fixed bottom-0 end-0 p-3">
+            <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                <div class="toast-header">
+                    <i class="bi bi-1-square-fill toast-text1"></i>
+                    <strong class="me-auto toast-text1">Defecto</strong>
+                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                </div>
+                <div class="toast-body">
+                    Considero que el peor defecto que tengo es la arrogancia, estoy intentando corregirlo porque entiendo que puede ser muy molesto. 
+                </div>
+            </div>
+            <div id="liveToast2" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                <div class="toast-header">
+                    <i class="bi bi-2-square-fill toast-text2"></i>
+                    <strong class="me-auto toast-text2">Profesores</strong>
+                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                </div>
+                <div class="toast-body">
+                    Hay varios que nunca olvidaré, nunca olvidaré a Cristina, Prieto y Juandi porque me gustaban bastante sus clases. Nunca olvidaré a Gonzalo y Luz Emilia por estrictos(estresantes). 
+                </div>
+            </div>
+            <div id="liveToast3" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                <div class="toast-header">
+                    <i class="bi bi-3-square-fill toast-text3"></i>
+                    <strong class="me-auto toast-text3">Materias Favoritas</strong>
+                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                </div>
+                <div class="toast-body">
+                    Español, es mi materia favorita con mucha diferencia.
+                </div>
+            </div>
+            <div id="liveToast4" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                <div class="toast-header">
+                    <i class="bi bi-4-square-fill toast-text1"></i>
+                    <strong class="me-auto toast-text1">Frase</strong>
+                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                </div>
+                <div class="toast-body">
+                    Noooo, que moral.
+                </div>
+            </div>
+        </div>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <script src="./main.js"></script>
     </body>
 </html>
