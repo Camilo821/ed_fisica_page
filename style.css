@@ -1,0 +1,27 @@
+.container, .card {
+    margin: auto;
+}
+footer {
+    background-color: var(--main-grey);
+    color: #000000;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 10px;
+    background-color: #e0e0e0;
+}
+.footer {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 5px;
+}
+.btn-group {
+    margin: 10px;
+}
+.btn-info, .btn-primary {
+    color: #e0e0e0;
+    font-weight: bold;
+} 
