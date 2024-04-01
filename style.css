@@ -65,7 +65,7 @@ i {
     display: flex;
 }
 
-.periodo {
+.titulo {
     background-color: #0d6efd;
     color: #e0e0e0;
     padding: 10px;
@@ -75,4 +75,10 @@ i {
     background-color: #6c757d;
     color: #e0e0e0;
     padding: 6px;
+}
+.imagen {
+    margin: 10px;
+}
+.map-button {
+    border-radius: 0px 0px 5px 5px;
 }
